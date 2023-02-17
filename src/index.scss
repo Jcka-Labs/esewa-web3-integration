@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+
+    h1{
+        font-size: 2rem;
+    }
+}
+
+.app__container{
+    padding: 15px 5vw;
+
+    .pageTitle{
+        text-align: center;
+    }
+
+    .walletDetails{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .transaction__container{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        margin-top: 20px;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            label, input{
+                margin-bottom: 5px;
+            }
+        }
+
+        .portfolio, .buy__container{
+            flex: 1 1 0;
+        }
+        .portfolio{
+            .addTokenOnList{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-bottom: 20px;
+            }
+            .tokenLists__container{
+                width: 100%;
+                margin-bottom: 20px;
+
+                .titles{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-weight: 600;
+                }
+
+                .tokens{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

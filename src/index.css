@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+* h1 {
+  font-size: 2rem;
+}
+
+.app__container {
+  padding: 15px 5vw;
+}
+.app__container .pageTitle {
+  text-align: center;
+}
+.app__container .walletDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.app__container .transaction__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 20px;
+}
+.app__container .transaction__container form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.app__container .transaction__container form label, .app__container .transaction__container form input {
+  margin-bottom: 5px;
+}
+.app__container .transaction__container .portfolio, .app__container .transaction__container .buy__container {
+  flex: 1 1 0;
+}
+.app__container .transaction__container .portfolio .addTokenOnList {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.app__container .transaction__container .portfolio .tokenLists__container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.app__container .transaction__container .portfolio .tokenLists__container .titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.app__container .transaction__container .portfolio .tokenLists__container .tokens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
